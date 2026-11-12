@@ -280,6 +280,27 @@ p { text-wrap: pretty; }
   .chip-3 { right: 0; }
 }
 
+/* ---------- Pourquoi Nexum ---------- */
+.origin { padding-block: clamp(8px, 2vw, 24px) 0; }
+.origin-card {
+  margin: 0;
+  padding: clamp(2rem, 6vw, 4.5rem) clamp(1.25rem, 6vw, 5rem);
+  border-block: 1px solid var(--line);
+  text-align: center;
+}
+.origin-mark { width: 88px; height: auto; margin: 0 auto 1.25rem; }
+.origin-card .eyebrow { margin-bottom: 1.25rem; }
+.origin-card blockquote { margin: 0 auto; max-width: 860px; }
+.origin-card blockquote p {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(1.3rem, 1rem + 1.3vw, 2.05rem);
+  line-height: 1.4;
+  color: var(--ink);
+  text-wrap: balance;
+}
+
 /* ---------- Sections ---------- */
 .section { padding-block: var(--section-y); }
 
